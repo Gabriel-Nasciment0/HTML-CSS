@@ -11,7 +11,10 @@
         }
         table{
             width: 500px;
+            /*junta as bordas*/
             border-collapse: collapse;
+            /*cabeçalho acompanhando a rolagem*/
+            position: relative;
         }
         caption{
             background-color: lightgray;
@@ -22,9 +25,22 @@
             background-color: gray;
             color: white;
         }
+        /*cabeçalho acompanhando a rolagem*/
+        thead>tr>th{
+            position: sticky;
+            top: 0;
+            background-color: gray;
+        }
         td,th{
             border: 1px solid black;
             padding: 10px;
+        }
+        /*efeito zebrado*/
+        tbody>tr:nth-child(even){ /*separa a formatação em par*/
+            background-color: lightgray;
+        }
+        tbody>tr:nth-child(odd){/*separa a formatação em impar*/
+            background-color: white;
         }
         td.num{
             text-align: right;
@@ -169,5 +185,37 @@
             </tr>
         </tfoot>
     </table>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio eum voluptatem illo eaque cum doloribus optio neque accusamus, illum corrupti dolor debitis vero necessitatibus omnis incidunt dolores. Vero, officia explicabo.
 </body>
 </html>
