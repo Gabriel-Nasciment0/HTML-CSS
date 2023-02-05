@@ -2,24 +2,24 @@
 @charset "utf-8";
 /* estilo para impressora */
 /* configurações globais */
-*{
-    margin: 10px;
-    padding: 10px;
+* {
+  margin: 10px;
+  padding: 10px;
 }
 /* pagina */
-html{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5em;
-    line-height: 1.5em;
+html {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5em;
+  line-height: 1.5em;
 }
 /* barra de navegação */
-menu{
-    display: none;
+menu {
+  display: none;
 }
 /* artigo */
-article{
-    width: 100%;
+article {
+  width: 100%;
 }
-article::after{
-    content: "esse papel foi impresso atraves do site de testes ";
+article::after {
+  content: "esse papel foi impresso atraves do site de testes ";
 }

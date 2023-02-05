@@ -1,39 +1,39 @@
 /* regras gerais */
 @charset "utf-8";
- /*estilo para a tela  */
+/*estilo para a tela  */
 /* configurações globais */
- *{
-    margin: 0px;
-    padding: 0px;
- }
- /* pagina */
- html{
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
- }
- /* cabeçalho */
- header{
-    background-color: lightgray;
- }
- /* titulo do cabeçalho */
- header > h1{
-    text-align: center;
- }
- /* barra de navegação */
- menu ul{
-    list-style-type: none;
-    background-color: gray;
- }
- menu li{
-    display: inline-block;
-    color: white;
-    background-color: rgb(77, 77, 77);
-    padding: 10px;
- }
- /* artigo */
- article{
-    width: 600px;
-    display: block;
-    margin: auto;
-    text-align: justify;
- }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* pagina */
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+/* cabeçalho */
+header {
+  background-color: lightgray;
+}
+/* titulo do cabeçalho */
+header > h1 {
+  text-align: center;
+}
+/* barra de navegação */
+menu ul {
+  list-style-type: none;
+  background-color: gray;
+}
+menu li {
+  display: inline-block;
+  color: white;
+  background-color: rgb(77, 77, 77);
+  padding: 10px;
+}
+/* artigo */
+article {
+  width: 600px;
+  display: block;
+  margin: auto;
+  text-align: justify;
+}
