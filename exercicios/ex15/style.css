@@ -1,19 +1,19 @@
 @charset "UTF-8";
 
-body{
-    background-color:rgb(250, 250, 210);
+body {
+  background-color: rgb(250, 250, 210);
 }
-h1{
-    background-color:#DAA520;
-    color: #800000;
+h1 {
+  background-color: #daa520;
+  color: #800000;
 }
-h2{
-    color: #8B0000;
+h2 {
+  color: #8b0000;
 }
-p{
-    text-align: justify;
+p {
+  text-align: justify;
 }
-a{
-    display: block;
-    text-align: right;
+a {
+  display: block;
+  text-align: right;
 }
