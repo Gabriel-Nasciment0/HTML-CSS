@@ -2,55 +2,55 @@
 @charset "utf-8";
 /* configurações gerais */
 * {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.3em;
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-  /* configurações da pagina */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* configurações da pagina */
 }
 html,
 body {
-  width: 100%;
-  height: 100vh;
+    width: 100%;
+    height: 100vh;
 }
 /* corpo da pagina */
 body {
-  background: black url(../imagens/back-phone.jpg) no-repeat center center;
-  background-size: cover;
+    background: black url(../imagens/back-phone.jpg) no-repeat center center;
+    background-size: cover;
 }
 /* conteudo principal */
 main {
-  background-color: rgba(255, 255, 255, 0.842);
-  width: 90%;
-  margin: auto;
-  margin-top: 3%;
-  border-radius: 10px;
-  padding: 10px;
+    background-color: rgba(255, 255, 255, 0.842);
+    width: 90%;
+    margin: auto;
+    margin-top: 3%;
+    border-radius: 10px;
+    padding: 10px;
 }
 /* titulo */
 h1 {
-  text-align: center;
-  color: white;
-  text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.69);
+    text-align: center;
+    color: white;
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.69);
 }
 /* imagens */
 img {
-  display: block;
-  margin: auto;
+    display: block;
+    margin: auto;
 }
 #phone {
-  display: block;
+    display: block;
 }
 #tablet {
-  display: none;
+    display: none;
 }
 #print {
-  display: none;
+    display: none;
 }
 #tv {
-  display: none;
+    display: none;
 }
 #pc {
-  display: none;
+    display: none;
 }

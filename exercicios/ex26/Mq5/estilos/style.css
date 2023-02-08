@@ -1,0 +1,7 @@
+/* regras gerais */
+@charset "utf-8";
+/* configurações da pagina */
+body,
+html {
+    background-color: lightgrey;
+}

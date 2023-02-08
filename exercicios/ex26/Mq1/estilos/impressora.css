@@ -3,23 +3,23 @@
 /* estilo para impressora */
 /* configurações globais */
 * {
-  margin: 10px;
-  padding: 10px;
+    margin: 10px;
+    padding: 10px;
 }
 /* pagina */
 html {
-  font-family: "Courier New", Courier, monospace;
-  font-size: 1.5em;
-  line-height: 1.5em;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.5em;
+    line-height: 1.5em;
 }
 /* barra de navegação */
 menu {
-  display: none;
+    display: none;
 }
 /* artigo */
 article {
-  width: 100%;
+    width: 100%;
 }
 article::after {
-  content: "esse papel foi impresso atraves do site de testes ";
+    content: "esse papel foi impresso atraves do site de testes ";
 }
