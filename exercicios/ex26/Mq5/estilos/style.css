@@ -27,9 +27,22 @@ header {
 header > h1 {
     padding: 10px;
 }
+/* icone do menu */
+#burger {
+    background-color: var(--cor5);
+    color: var(--cor1);
+    display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+#burger:hover {
+    background-color: var(--cor1);
+    color: var(--cor5);
+}
 /* menu */
 menu {
-    display: block;
+    display: none;
 }
 /* formatação do menu */
 menu > ul {
