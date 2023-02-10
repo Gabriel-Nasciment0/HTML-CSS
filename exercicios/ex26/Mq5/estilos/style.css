@@ -63,7 +63,7 @@ menu > ul > li > a:hover {
 }
 /* conteudo principal */
 main {
-    width: 90vw;
+    width: 90%;
     background-color: var(--cor1);
     margin: auto;
     padding: 10px;
