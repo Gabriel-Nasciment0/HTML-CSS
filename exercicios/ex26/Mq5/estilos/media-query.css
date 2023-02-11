@@ -7,14 +7,13 @@ Tablet: 768px ate 992px
 Desktop: 992px ate 1200px
 Grandes Telas: acima de 1200px*/
 
+/* não esta funcionando */
 @media screen and (max-width: 768px) {
     span#burger {
         display: none;
     }
-    menu {
+
+    header > menu {
         display: block;
-    }
-    menu > ul > li {
-        display: inline-block;
     }
 }
